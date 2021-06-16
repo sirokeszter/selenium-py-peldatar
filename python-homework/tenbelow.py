@@ -1,8 +1,7 @@
-x=int(input())
+szam=0
+osszeg=0
 
-while x<10:
-    my_input=input()
-    x+=int(my_input)
-    print(x)
-
-#ez még nem az igazi megoldás, egyelőre akkor áll meg, ha a számok összege 10
+while szam<10:
+    szam=int(input())
+    osszeg+=szam
+print(osszeg)
