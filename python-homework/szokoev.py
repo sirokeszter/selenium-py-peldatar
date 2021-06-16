@@ -13,5 +13,15 @@ def szokoev(ev):
 
 print (szokoev(2100))
 
+print("2100 szokoev?", szokoev(2100))
+
 # Írj programot, amelyik a felhasználótól évszámokat kér, és mindegyikre kiírja, hogy szökőév-e!
 # Használd az előbb megírt függvényt! Például: ? 2005 Nem szökőév. ? 2000 Szökőév. ? 1980 Szökőév. ? 1900 Nem szökőév.
+
+print("Kérem, adja meg az évet!")
+ev=int(input())
+
+if szokoev(ev):
+    print(ev, "Szökőév")
+else:
+    print(ev, "Nem szökőév")
