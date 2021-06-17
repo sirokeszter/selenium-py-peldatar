@@ -21,7 +21,7 @@ else:
     print("")
 if int(kerdes1) > 60 and kerdes2 == "kóla":
     print("A koffein emelheti a vérnyomását!")
-elif int(kerdes1) >= 60 and kerdes2 == "kóla":
+elif int(kerdes1) <= 60 and kerdes2 == "kóla":
     print("Parancsoljon, a kólája")
 else:
     print(" ")
