@@ -5,8 +5,11 @@
 
 def szokoev(ev):
     if ev % 4 == 0:
-        if ev % 100 != 0 and ev % 400 ==0:
-            return True
+        if ev % 100 == 0:
+            if ev % 400 ==0:
+                return True
+            return False
+        return True
     else:
         return False
 
