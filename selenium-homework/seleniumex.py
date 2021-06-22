@@ -1,8 +1,15 @@
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 
-driver = webdriver.Chrome(ChromeDriverManager().install())
+options = Options()
+#options.add_argument('--headless')
+options.add_argument('--disable-gpu')
+driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=options)
 driver.get("http://eupalyazatiportal.hu/")
 
-nincs=driver.find_element_by_id("nemletezik")
-nincs.click()
+try:
+    nemletezik=driver.find_element_by_id("nemletezik")
+
+except:
+    print("No exception")
