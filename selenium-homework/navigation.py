@@ -9,13 +9,13 @@ driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=option
 driver.get("http://localhost:9999/general.html")
 
 try:
-    def get_all_links(driver):
-        links = []
-        elements = driver.find_elements_by_tag_name('a')
-        for elem in elements:
-            href = elem.get_attribute("href")
-            links.append(href)
-        return links
+    links = []
+    linkek = driver.find_elements_by_xpath("//*[@href]")
+
+    for elem in linkek:  #
+        url = elem.get_attribute('href')
+        print(url)
+        links.append(url)
 
 finally:
     driver.close()
