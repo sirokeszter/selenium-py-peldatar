@@ -17,6 +17,8 @@ try:
         print(url)
         links.append(url)
 
+    for i in linkek:
+        assert (elem.text)
+
 finally:
     driver.close()
-
