@@ -3,7 +3,7 @@ from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 
 options = Options()
-#options.add_argument('--headless')
+# options.add_argument('--headless')
 options.add_argument('--disable-gpu')
 driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=options)
 driver.get("http://localhost:9999/trickyelements.html")
@@ -16,15 +16,15 @@ try:
     element5 = driver.find_element_by_id("element5")
 
     elements = ["element1", "element2", "element3", "element4", "element5"]
-    button = driver.find_elements_by_xpath('//button')
 
-    for i in elements:
-        if elements[i] == button:
+    for e in elements:
+        e_elements = driver.find_element_by_id(e)
+        button = driver.find_element_by_xpath('//button')
+        result = driver.find_element_by_id("result")
+        if e_elements == button:
             button.click()
-            result = driver.find_element_by_id("result")
             print(result.text)
-            break
-            assert (result.text == "element{} was clicked".format(i))
+            assert (result.text == f"{button.text} was clicked")
 
 finally:
     driver.close()
