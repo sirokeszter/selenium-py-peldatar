@@ -1,12 +1,12 @@
 {
-  "uid" : "11c399826c55b697",
+  "uid" : "7ed1e98b35f49b9b",
   "name" : "test_add_string__expect_exception",
   "fullName" : "testproject.test_mymath#test_add_string__expect_exception",
   "historyId" : "0e93b819cc2e8121f7281dc8e4eaaf78",
   "time" : {
-    "start" : 1624452416130,
-    "stop" : 1624452416131,
-    "duration" : 1
+    "start" : 1624528364696,
+    "stop" : 1624528364696,
+    "duration" : 0
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,10 +21,10 @@
     "value" : "test_mymath"
   }, {
     "name" : "host",
-    "value" : "fv-az74-855"
+    "value" : "fv-az83-307"
   }, {
     "name" : "thread",
-    "value" : "2888-MainThread"
+    "value" : "2894-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -51,11 +51,20 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 25,
+        "passed" : 26,
         "unknown" : 0,
-        "total" : 25
+        "total" : 26
       },
       "items" : [ {
+        "uid" : "11c399826c55b697",
+        "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/9//#testresult/11c399826c55b697",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624452416130,
+          "stop" : 1624452416131,
+          "duration" : 1
+        }
+      }, {
         "uid" : "f03696dbf23ad5b1",
         "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/32//#testresult/f03696dbf23ad5b1",
         "status" : "passed",
@@ -226,19 +235,10 @@
           "stop" : 1623838404625,
           "duration" : 0
         }
-      }, {
-        "uid" : "cb085dbcc510fa9",
-        "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/13//#testresult/cb085dbcc510fa9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1623838315830,
-          "stop" : 1623838315831,
-          "duration" : 1
-        }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "11c399826c55b697.json",
+  "source" : "7ed1e98b35f49b9b.json",
   "parameterValues" : [ ]
 }
