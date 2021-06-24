@@ -19,4 +19,4 @@ for line in text:
 for key in list(dictionary.keys()):
     print(key, dictionary[key])
 
-# a str.split-et végül nem használtam, egy neten talált példa alapján dolgoztam
+# Egy neten talált példa alapján dolgoztam, kiszedve az írásjeleket is. Egy dolgot nem tudtam megoldani,maradt benne egy olyan sor, ahol üres elemeket talált meg 9x.
