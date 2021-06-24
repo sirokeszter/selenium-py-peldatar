@@ -22,11 +22,13 @@ try:
     print(driver.current_url)
     navigate_to_general_page()
 
-    anchors = driver.find_elements_by_xpath('//header//small//a')
+    anchors = []
+    links = driver.find_elements_by_xpath("//*[@href]")
 
-    for a in anchors:
-        a.click()
-        print(driver.current_url)
+    for elem in links:  #
+        url = elem.get_attribute('href')
+        print(url)
+        anchors.append(url)
 
     while driver.current_url!="http://localhost:9999/":
         print(driver.current_url)
