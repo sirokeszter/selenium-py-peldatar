@@ -18,3 +18,5 @@ for line in text:
 
 for key in list(dictionary.keys()):
     print(key, dictionary[key])
+
+# a str.split-et végül nem használtam, egy neten talált példa alapján dolgoztam
