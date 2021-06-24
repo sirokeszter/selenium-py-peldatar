@@ -26,11 +26,13 @@ try:
     links = driver.find_elements_by_xpath("//*[@href]")
 
     for elem in links:  #
-        url = elem.get_attribute('href')
-        print(url)
-        anchors.append(url)
+        current_url = elem.get_attribute('href')
+        print(current_url)
+        anchors.append(current_url)
 
-    while driver.current_url!="http://localhost:9999/":
+    print("-" * 30)
+
+    while driver.current_url != "http://localhost:9999/":
         print(driver.current_url)
         driver.back()
 
