@@ -5,20 +5,32 @@ from webdriver_manager.chrome import ChromeDriverManager
 options = Options()
 # options.add_argument('--headless')
 options.add_argument('--disable-gpu')
+
+
+def navigate_to_general_page():
+    link = driver.find_element_by_xpath('//a[text()="General text and other elements"]')
+    link.click()
+
+
 driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=options)
-driver.get("http://localhost:9999/general.html")
-
 try:
-    links = []
-    linkek = driver.find_elements_by_xpath("//*[@href]")
+    driver.get("http://localhost:9999/")
+    print(driver.current_url)
+    navigate_to_general_page()
+    print(driver.current_url)
+    driver.back()
+    print(driver.current_url)
+    navigate_to_general_page()
 
-    for elem in linkek:  #
-        url = elem.get_attribute('href')
-        print(url)
-        links.append(url)
+    anchors = driver.find_elements_by_xpath('//header//small//a')
 
-    for i in linkek:
-        assert (elem.text)
+    for a in anchors:
+        a.click()
+        print(driver.current_url)
+
+    while driver.current_url!="http://localhost:9999/":
+        print(driver.current_url)
+        driver.back()
 
 finally:
     driver.close()
