@@ -1,4 +1,11 @@
 [ {
+  "buildOrder" : 22,
+  "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/22/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 20
+  }
+}, {
   "buildOrder" : 46,
   "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/46/",
   "reportName" : "Allure Report with history",
@@ -130,12 +137,5 @@
   "reportName" : "Allure Report with history",
   "data" : {
     "duration" : 11
-  }
-}, {
-  "buildOrder" : 30,
-  "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/30/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 6
   }
 } ]
