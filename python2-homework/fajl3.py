@@ -1,3 +1,5 @@
+# 3.	Olvasd be a fájlt, tárold a sorokat listában, majd írd ki a lista tartalmát egy sorként egy másik fájlba!
+
 text = open('adat.txt', 'r')
 
 mod_list = []
