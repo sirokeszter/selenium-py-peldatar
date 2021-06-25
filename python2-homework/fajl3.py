@@ -1,4 +1,3 @@
-# 2.	Olvasd be a fájlt, tárold a sorokat listában, majd írd ki a lista tartalmát egy sorban!
 text = open('adat.txt', 'r')
 
 mod_list = []
@@ -8,3 +7,6 @@ for line in text:
     mod_list.append(line)
     count += 1
 print(mod_list)
+
+text_inline = ' '.join(mod_list)
+print(text_inline)
