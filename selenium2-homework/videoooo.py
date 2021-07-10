@@ -39,8 +39,12 @@ try:
     frameElement = driver.find_element_by_xpath("//iframe[@src='https://www.youtube.com/embed/tgbNymZ7vqY']")
     driver.switch_to.frame(frameElement)
     driver.find_element_by_xpath("//button[@aria-label='Lejátszás']").click()
-    driver.implicitly_wait(2)
-    driver.find_element_by_xpath("//button[@aria-label='Lejátszás']").click()
+    time.sleep(5)
+    WebDriverWait(driver, 15).until(EC.element_to_be_clickable(
+        (By.XPATH, "//*[@id='movie_player']"))).send_keys(Keys.SPACE)
+
+    # js = "stop-video.js;"
+    # driver.execute_script(js)
 
 finally:
     pass
