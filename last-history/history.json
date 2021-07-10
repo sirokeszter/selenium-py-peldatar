@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 56,
+      "passed" : 57,
       "unknown" : 0,
-      "total" : 56
+      "total" : 57
     },
     "items" : [ {
+      "uid" : "b5eb67162f5fd520",
+      "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/35//#testresult/b5eb67162f5fd520",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625950433154,
+        "stop" : 1625950433154,
+        "duration" : 0
+      }
+    }, {
       "uid" : "ddd804d01add91cf",
       "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/34//#testresult/ddd804d01add91cf",
       "status" : "passed",
@@ -179,15 +188,6 @@
         "stop" : 1624570987442,
         "duration" : 0
       }
-    }, {
-      "uid" : "4e4cf1edd511c169",
-      "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/42//#testresult/4e4cf1edd511c169",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624567946333,
-        "stop" : 1624567946333,
-        "duration" : 0
-      }
     } ]
   },
   "0e93b819cc2e8121f7281dc8e4eaaf78" : {
@@ -195,11 +195,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 56,
+      "passed" : 57,
       "unknown" : 0,
-      "total" : 56
+      "total" : 57
     },
     "items" : [ {
+      "uid" : "b2b9b2598d6cb3c1",
+      "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/35//#testresult/b2b9b2598d6cb3c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625950433156,
+        "stop" : 1625950433156,
+        "duration" : 0
+      }
+    }, {
       "uid" : "d4ceff7a7b21b9bf",
       "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/34//#testresult/d4ceff7a7b21b9bf",
       "status" : "passed",
@@ -370,15 +379,6 @@
         "stop" : 1624570987444,
         "duration" : 0
       }
-    }, {
-      "uid" : "d8a9ab0fbb79705f",
-      "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/42//#testresult/d8a9ab0fbb79705f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624567946336,
-        "stop" : 1624567946336,
-        "duration" : 0
-      }
     } ]
   },
   "0cc1fa42e1c19a0d3fd610d45c4ba65a" : {
@@ -386,11 +386,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 56,
+      "passed" : 57,
       "unknown" : 0,
-      "total" : 56
+      "total" : 57
     },
     "items" : [ {
+      "uid" : "a9b90760179cc526",
+      "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/35//#testresult/a9b90760179cc526",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625950433146,
+        "stop" : 1625950433146,
+        "duration" : 0
+      }
+    }, {
       "uid" : "3b46be181a09e9f6",
       "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/34//#testresult/3b46be181a09e9f6",
       "status" : "passed",
@@ -561,15 +570,6 @@
         "stop" : 1624570987439,
         "duration" : 1
       }
-    }, {
-      "uid" : "c5da96d957c7b2e3",
-      "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/42//#testresult/c5da96d957c7b2e3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624567946322,
-        "stop" : 1624567946323,
-        "duration" : 1
-      }
     } ]
   },
   "753cdf21aa3257d3e2249d83346a13e6" : {
@@ -577,11 +577,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 56,
+      "passed" : 57,
       "unknown" : 0,
-      "total" : 56
+      "total" : 57
     },
     "items" : [ {
+      "uid" : "68061372cdf3a430",
+      "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/35//#testresult/68061372cdf3a430",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625950433155,
+        "stop" : 1625950433155,
+        "duration" : 0
+      }
+    }, {
       "uid" : "fca6142a2657ebf",
       "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/34//#testresult/fca6142a2657ebf",
       "status" : "passed",
@@ -750,15 +759,6 @@
       "time" : {
         "start" : 1624570987443,
         "stop" : 1624570987443,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "cb5d1e92493eadcb",
-      "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/42//#testresult/cb5d1e92493eadcb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624567946334,
-        "stop" : 1624567946334,
         "duration" : 0
       }
     } ]
