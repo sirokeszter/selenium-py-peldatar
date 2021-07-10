@@ -21,8 +21,9 @@ try:
     html5videos.click()
     html5videos.send_keys(Keys.SPACE)
     time.sleep(6)
-    js = "pause-video.js;"
-    driver.execute_script(js)
+    html5videos.send_keys(Keys.SPACE)
+    # js = "pause-video.js;"
+    # driver.execute_script(js)
 
     video1_playbtn = driver.find_element_by_xpath("/html/body/div/button[1]")
     video1_playbtn.click()
