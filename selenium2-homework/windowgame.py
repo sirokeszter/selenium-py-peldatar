@@ -8,7 +8,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 import random
 
-
 options = Options()
 # options.add_argument('--headless')
 options.add_argument('--disable-gpu')
@@ -17,8 +16,8 @@ driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=option
 try:
     driver.get("http://localhost:9999/windowgame.html")
     target_color = driver.find_element_by_id("target_color").text
-    buttons=driver.find_elements_by_tag_name("button")
-    #option['+str(randomNumber)+']']").click()
+    buttons = driver.find_elements_by_tag_name("button")
+    # option['+str(randomNumber)+']']").click()
     for button in buttons:
         button.click()
         main_window = driver.window_handles[0]
@@ -26,10 +25,9 @@ try:
         new_window = driver.window_handles[1]
         driver.switch_to.window(new_window)
         colors = driver.find_elements_by_xpath("/html/body/h1")
-        for i in colors:
-            color=driver.find_element_by_tag_name("h1").text
-            if color.text != target_color.text:
-                new_window.quit()
+        for color in colors:
+            color_text=color.find_element_by_xpath("/html/body/h1").value_of_css_property("background-color")
+            if color_text != target_color.text:
                 continue
             else:
                 break
