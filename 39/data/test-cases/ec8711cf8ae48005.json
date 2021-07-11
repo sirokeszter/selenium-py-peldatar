@@ -1,12 +1,12 @@
 {
-  "uid" : "7e8f4a117eb077e3",
+  "uid" : "ec8711cf8ae48005",
   "name" : "test_add_positive",
   "fullName" : "testproject.test_mymath#test_add_positive",
   "historyId" : "0cc1fa42e1c19a0d3fd610d45c4ba65a",
   "time" : {
-    "start" : 1626040775665,
-    "stop" : 1626040775665,
-    "duration" : 0
+    "start" : 1626040779566,
+    "stop" : 1626040779567,
+    "duration" : 1
   },
   "status" : "passed",
   "flaky" : false,
@@ -24,7 +24,7 @@
     "value" : "fv-az39-293"
   }, {
     "name" : "thread",
-    "value" : "2796-MainThread"
+    "value" : "2790-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -239,6 +239,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "7e8f4a117eb077e3.json",
+  "source" : "ec8711cf8ae48005.json",
   "parameterValues" : [ ]
 }
