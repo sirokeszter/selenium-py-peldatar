@@ -3,139 +3,139 @@
   "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/40/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 46
-  }
-}, {
-  "buildOrder" : 16,
-  "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/16/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 38
+    "duration" : 12
   }
 }, {
   "buildOrder" : 39,
   "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/39/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 7
+    "duration" : 12
   }
 }, {
-  "buildOrder" : 14,
-  "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/14/",
+  "buildOrder" : 38,
+  "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/38/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 5
+    "duration" : 6
   }
 }, {
   "buildOrder" : 37,
   "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/37/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 28
-  }
-}, {
-  "buildOrder" : 12,
-  "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/12/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 13
+    "duration" : 21
   }
 }, {
   "buildOrder" : 36,
   "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/36/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 4
+    "duration" : 11
+  }
+}, {
+  "buildOrder" : 59,
+  "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/59/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 12
   }
 }, {
   "buildOrder" : 35,
   "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/35/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "duration" : 10
+  }
+}, {
+  "buildOrder" : 34,
+  "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/34/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 8
+  }
+}, {
+  "buildOrder" : 33,
+  "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/33/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 5
+  }
+}, {
+  "buildOrder" : 56,
+  "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/56/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "duration" : 13
-  }
-}, {
-  "buildOrder" : 10,
-  "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/10/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 5
-  }
-}, {
-  "buildOrder" : 9,
-  "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/9/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 6
-  }
-}, {
-  "buildOrder" : 32,
-  "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/32/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 5
   }
 }, {
   "buildOrder" : 31,
   "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/31/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 11
+    "duration" : 7
   }
 }, {
   "buildOrder" : 30,
   "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/30/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 6
+    "duration" : 12
+  }
+}, {
+  "buildOrder" : 54,
+  "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/54/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 12
   }
 }, {
   "buildOrder" : 29,
   "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/29/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 35
+    "duration" : 15
   }
 }, {
   "buildOrder" : 28,
   "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/28/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 5
+    "duration" : 6
   }
 }, {
-  "buildOrder" : 3,
-  "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/3/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 14
-  }
-}, {
-  "buildOrder" : 2,
-  "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/2/",
+  "buildOrder" : 51,
+  "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/51/",
   "reportName" : "Allure Report with history",
   "data" : {
     "duration" : 5
   }
 }, {
-  "buildOrder" : 25,
-  "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/25/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 14
-  }
-}, {
-  "buildOrder" : 24,
-  "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/24/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 14
-  }
-}, {
-  "buildOrder" : 23,
-  "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/23/",
+  "buildOrder" : 26,
+  "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/26/",
   "reportName" : "Allure Report with history",
   "data" : {
     "duration" : 11
+  }
+}, {
+  "buildOrder" : 50,
+  "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/50/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 5
+  }
+}, {
+  "buildOrder" : 49,
+  "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/49/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 7
+  }
+}, {
+  "buildOrder" : 48,
+  "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/48/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 6
   }
 } ]
