@@ -16,21 +16,26 @@ driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=option
 try:
     driver.get("http://localhost:9999/windowgame.html")
     target_color = driver.find_element_by_id("target_color").text
-    buttons = driver.find_elements_by_tag_name("button")
-    # option['+str(randomNumber)+']']").click()
-    for button in buttons:
-        button.click()
-        main_window = driver.window_handles[0]
-        driver.execute_script("window.open('','newwin','height=800,width=600')")
+    num_guess = driver.find_element_by_id("numberOfGuesses").text
+
+    buttons = []
+    for button in range(100):
+        buttons.append(driver.find_element_by_id(button))
+
+    main_window = driver.window_handles[0]
+    i = 0
+    x = False
+    while not x:
+        buttons[i].click()
         new_window = driver.window_handles[1]
         driver.switch_to.window(new_window)
-        colors = driver.find_elements_by_xpath("/html/body/h1")
-        for color in colors:
-            color_text=color.find_element_by_xpath("/html/body/h1").value_of_css_property("background-color")
-            if color_text != target_color.text:
-                continue
-            else:
-                break
+        color = driver.find_element_by_tag_name("h1").text
+        x = (color == target_color or i >=99)
+        num = driver.find_element_by_tag_name("h1").text
+        driver.close()
+        driver.switch_to.window(main_window)
+        i += 1
+    print("Matched color:", color)
 
 finally:
     pass
