@@ -17,11 +17,11 @@ try:
     driver.get("http://localhost:9999/windowgame.html")
     target_color = driver.find_element_by_id("target_color").text
     num_guess = driver.find_element_by_id("numberOfGuesses").text
-
+    # Gombok kigyűjtése:
     buttons = []
     for button in range(100):
         buttons.append(driver.find_element_by_id(button))
-
+    # Színek csekkolása:
     main_window = driver.window_handles[0]
     i = 0
     x = False
@@ -30,7 +30,7 @@ try:
         new_window = driver.window_handles[1]
         driver.switch_to.window(new_window)
         color = driver.find_element_by_tag_name("h1").text
-        x = (color == target_color or i >=99)
+        x = (color == target_color or i >= 99)
         num = driver.find_element_by_tag_name("h1").text
         driver.close()
         driver.switch_to.window(main_window)
