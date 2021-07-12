@@ -25,16 +25,23 @@ try:
         time.sleep(3)
         html.send_keys(Keys.END)
     images = driver.find_elements_by_xpath("//div[@class='image']")
+    images_url=[]
     for index,j in enumerate(images[0:21]):
         url = j.find_element_by_tag_name("img").get_attribute("scr")
         pict_name = j.find_element_by_tag_name("p").text.replace("Cat id:","")
-        print(f"{index}_{pict_name}")
-        cat_file_name = f"cats/{index}_{pict_name}"
+        cat_file_name = f"{index}_{pict_name}"
+        images_url.append(cat_file_name)
+        print(images_url)
 
-        r = requests.get(url)
-        if r.status_code == 200:
-            with open(cat_file_name, 'wb') as f:
-                f.write(r.content)
+        reponse = requests.get(url)
+        if reponse.status_code == 200:
+            with open(f"cats/{cat_file_name}", "wb") as file:
+                file.write(reponse.content)
+
+        # r = requests.get(url)
+        # if r.status_code == 200:
+        #     with open(cat_file_name, 'wb') as f:
+        #         f.write(r.content)
     print()
 
 
