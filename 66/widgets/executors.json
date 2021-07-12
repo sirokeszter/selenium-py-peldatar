@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://sirokeszter.github.io/selenium-py-peldatar",
+  "buildOrder" : 66,
+  "buildName" : "GitHub Actions Run #1023538845",
+  "buildUrl" : "https://github.com/sirokeszter/selenium-py-peldatar/actions/runs/1023538845",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://sirokeszter.github.io/selenium-py-peldatar/66/"
+} ]
