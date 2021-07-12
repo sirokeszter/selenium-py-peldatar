@@ -23,14 +23,20 @@ try:
 
     for i in range(2):
         time.sleep(3)
-        images = driver.find_elements_by_xpath("//div[@class='image']")
-        for j in images[0:10]:
-            url = j.find_element_by_tag_name("img").get_attribute("scr")
-            pict_name = j.find_element_by_tag_name("p").text
-            pname= pict_name.replace("Cat id:","")
-            print(pname)
-            #urllib.request.urlretrieve(url, f"{pname}.jpg")
         html.send_keys(Keys.END)
+    images = driver.find_elements_by_xpath("//div[@class='image']")
+    for index,j in enumerate(images[0:21]):
+        url = j.find_element_by_tag_name("img").get_attribute("scr")
+        pict_name = j.find_element_by_tag_name("p").text.replace("Cat id:","")
+        print(f"{index}_{pict_name}")
+        cat_file_name = f"cats/{index}_{pict_name}"
+
+        r = requests.get(url)
+        if r.status_code == 200:
+            with open(cat_file_name, 'wb') as f:
+                f.write(r.content)
+    print()
+
 
 finally:
     driver.close()
