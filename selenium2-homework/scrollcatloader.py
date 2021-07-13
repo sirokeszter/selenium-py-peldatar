@@ -27,22 +27,20 @@ try:
     images = driver.find_elements_by_xpath("//div[@class='image']")
     images_url=[]
     for index,j in enumerate(images[0:21]):
-        url = j.find_element_by_tag_name("img").get_attribute("scr")
+        url = j.find_element_by_tag_name("img").get_attribute("src")
         pict_name = j.find_element_by_tag_name("p").text.replace("Cat id:","")
         cat_file_name = f"{index}_{pict_name}"
         images_url.append(cat_file_name)
-        print(images_url)
 
         reponse = requests.get(url)
         if reponse.status_code == 200:
-            with open(f"cats/{cat_file_name}", "wb") as file:
+            with open(f"cats1/{cat_file_name}", "wb") as file:
                 file.write(reponse.content)
 
         # r = requests.get(url)
         # if r.status_code == 200:
         #     with open(cat_file_name, 'wb') as f:
         #         f.write(r.content)
-    print()
 
 
 finally:
